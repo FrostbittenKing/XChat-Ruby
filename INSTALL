@@ -1,0 +1,8 @@
+INSTALLING
+==========
+
+    ./configure
+    make
+    ./install
+    
+Thats it!
