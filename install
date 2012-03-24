@@ -1,0 +1,5 @@
+#!/usr/local/bin/ruby
+
+require 'fileutils'
+
+FileUtils.mv('./xchat_ruby.so',ENV['HOME']+'/.xchat2/')
