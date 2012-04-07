@@ -9,6 +9,6 @@ Dir.chdir DIRNAME
 
 dir_config('.')
 
-create_makefile('./'extension_name)
+create_makefile('xchat-ruby')
 
 
