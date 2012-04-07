@@ -1,11 +1,12 @@
 #!/usr/bin/env ruby
 
-Dir.chdir(File.expand_path(File.dirname(__FILE__)))
 require 'mkmf'
 
 extension_name = 'xchat_ruby'
 
-dir_config(extension_name)
+DIRNAME = File.expand_path(File.dirname(__FILE__)) + extension_name
+
+dir_config(DIRNAME)
 
 create_makefile(extension_name)
 
