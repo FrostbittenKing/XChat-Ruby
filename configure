@@ -5,9 +5,10 @@ require 'mkmf'
 extension_name = 'xchat_ruby'
 
 DIRNAME = File.expand_path(File.dirname(__FILE__)) + extension_name
+Dir.chdir DIRNAME 
 
-dir_config(DIRNAME)
+dir_config('.')
 
-create_makefile(extension_name)
+create_makefile('./'extension_name)
 
 
